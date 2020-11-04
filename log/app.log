@@ -1,0 +1,133 @@
+
+2020-10-11 20:11:02-|-ALERT-|-Access Denied-|-Context-|-Access-{close}-|-Ctrl-{App\Controllers\Home}-|-Method-{index}-|-ip-{127.0.0.1}-|-user-{}-|-
+2020-10-11 20:17:30-|-ALERT-|-Access Denied-|-Context-|-Access-{close}-|-Ctrl-{App\Controllers\Home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-10-11 20:18:13-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-11 20:18:15-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-11 20:18:15-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-11 20:18:16-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-11 20:18:16-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-11 20:18:16-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-15 01:09:47-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-15 01:09:52-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-15 01:12:23-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-10-15 01:13:06-|-INFO-|-Route not found-|-Context-|-Request-{/homefghfgh}-|-Request Method-{GET}-|-
+2020-10-29 12:50:49-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc/ho}-|-Request Method-{GET}-|-
+2020-10-29 12:54:28-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 12:54:33-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 12:56:25-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 12:56:27-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc/home}-|-Request Method-{GET}-|-
+2020-10-29 12:56:30-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 12:56:44-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 12:57:58-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:00:20-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:01:15-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:01:17-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:01:25-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:01:26-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:01:27-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:01:27-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:01:27-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:01:28-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-10-29 13:25:50-|-ALERT-|-Access Denied-|-Context-|-Access-{admin}-|-Ctrl-{App\Controllers\Home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-10-29 13:25:52-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-10-29 13:26:59-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-10-29 13:27:00-|-ALERT-|-Access Denied-|-Context-|-Access-{admin}-|-Ctrl-{App\Controllers\Home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-10-29 15:25:37-|-INFO-|-Route not found-|-Context-|-Request-{/simon-lib.loc}-|-Request Method-{GET}-|-
+2020-11-01 12:46:39-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-01 13:10:51-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-01 13:47:33-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-01 13:47:40-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 13:47:40-|-INFO-|-Route not found-|-Context-|-Request-{/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-01 13:48:27-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 13:49:10-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 13:49:11-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 13:49:12-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 13:49:12-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 13:49:13-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 13:50:28-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 13:52:30-|-INFO-|-Route not found-|-Context-|-Request-{/ho}-|-Request Method-{GET}-|-
+2020-11-01 14:23:36-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:34:50-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:35:14-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 14:35:18-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:38:15-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:38:16-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:38:16-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:38:16-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:38:17-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 14:38:19-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 14:41:35-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:27-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:51-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:52-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:52-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:52-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:52-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:53-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:53-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:53-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:54-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:42:54-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:44:51-|-ALERT-|-Access Denied-|-Context-|-Access-{all}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:44:53-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 14:44:54-|-ALERT-|-Access Denied-|-Context-|-Access-{all}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:44:55-|-ALERT-|-Access Denied-|-Context-|-Access-{all}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:45:12-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:45:13-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:46:13-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:46:41-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:46:42-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:46:42-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:46:43-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:49:35-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:49:36-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:49:36-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{}-|-Method-{}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:51:20-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:52:42-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:53:57-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 14:54:00-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 15:19:02-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 15:29:40-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 15:32:26-|-ALERT-|-Access Denied-|-Context-|-Access-{no}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:01:38-|-ALERT-|-Access Denied-|-Context-|-Access-{no}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:01:42-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 16:01:47-|-ALERT-|-Access Denied-|-Context-|-Access-{no}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:06:34-|-ALERT-|-Access Denied-|-Context-|-Access-{no}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:07:00-|-ALERT-|-Access Denied-|-Context-|-Access-{no}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:08:39-|-ALERT-|-Access Denied-|-Context-|-Access-{no}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:11:04-|-ALERT-|-Access Denied-|-Context-|-Access-{no}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:11:14-|-ALERT-|-Access Denied-|-Context-|-Access-{all}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:11:30-|-ALERT-|-Access Denied-|-Context-|-Access-{all}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:12:54-|-ALERT-|-Access Denied-|-Context-|-Access-{all}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:17:41-|-ALERT-|-Access Denied-|-Context-|-Access-{admin}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:17:42-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 16:24:11-|-INFO-|-Route not found-|-Context-|-Request-{/login}-|-Request Method-{GET}-|-
+2020-11-01 16:27:56-|-INFO-|-Route not found-|-Context-|-Request-{/register}-|-Request Method-{GET}-|-
+2020-11-01 16:28:10-|-ALERT-|-Access Denied-|-Context-|-Access-{admin}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 16:28:51-|-INFO-|-Route not found-|-Context-|-Request-{/home}-|-Request Method-{GET}-|-
+2020-11-01 18:16:18-|-INFO-|-Route not found-|-Context-|-Request-{/register?}-|-Request Method-{GET}-|-
+2020-11-01 18:16:21-|-INFO-|-Route not found-|-Context-|-Request-{/home}-|-Request Method-{GET}-|-
+2020-11-01 18:16:37-|-INFO-|-Route not found-|-Context-|-Request-{/home}-|-Request Method-{GET}-|-
+2020-11-01 18:16:59-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{authorization}-|-Method-{login}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 18:17:01-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{authorization}-|-Method-{login}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 18:17:03-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{authorization}-|-Method-{login}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 18:17:03-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{authorization}-|-Method-{login}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 18:17:04-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{authorization}-|-Method-{login}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-01 18:17:11-|-INFO-|-Route not found-|-Context-|-Request-{/login?}-|-Request Method-{GET}-|-
+2020-11-04 19:40:03-|-INFO-|-Route not found-|-Context-|-Request-{/home}-|-Request Method-{GET}-|-
+2020-11-04 19:58:07-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 20:09:14-|-INFO-|-Route not found-|-Context-|-Request-{/}-|-Request Method-{GET}-|-
+2020-11-04 20:09:18-|-INFO-|-Route not found-|-Context-|-Request-{/}-|-Request Method-{GET}-|-
+2020-11-04 20:09:28-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-04 20:15:48-|-INFO-|-Route not found-|-Context-|-Request-{/login?}-|-Request Method-{GET}-|-
+2020-11-04 20:16:59-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 20:17:01-|-INFO-|-Route not found-|-Context-|-Request-{/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 20:17:59-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 20:18:02-|-INFO-|-Route not found-|-Context-|-Request-{/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 20:20:28-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-04 20:22:56-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 21:45:33-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 21:51:26-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-04 21:51:27-|-INFO-|-Route not found-|-Context-|-Request-{/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 21:51:32-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-04 21:51:37-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
