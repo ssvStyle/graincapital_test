@@ -13,7 +13,6 @@ class CreateUserService
         $this->post = $post;
         $this->formValidator = new FormLoginValidator($post);
         $this->userModel = new User();
-
     }
 
     public function add()

@@ -25,7 +25,7 @@ class Authorization
 
     /**
      * @param $hash
-     * 
+     *
      * @return bool
      */
     public function userVerify()
@@ -44,7 +44,25 @@ class Authorization
         }
 
         return false;
-        
+
+    }
+
+    /**
+     *
+     * @return mixed
+     */
+
+    public function getUserPosition()
+    {
+        if ($this->userVerify()) {
+
+            $hash = $_SESSION['UserHash'];
+
+            $sql = 'SELECT position_id FROM users WHERE session_token=:hash';
+
+            return (int)$this->db->query($sql, [':hash' => $hash])[0]['position_id'] ?? false;
+        }
+
     }
 
     /**

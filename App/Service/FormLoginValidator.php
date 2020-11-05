@@ -26,7 +26,7 @@ class FormLoginValidator
             $this->errors[] = 'Поле email не должно быть пустым!';
         }
 
-        if (!(bool)preg_match('~^.{3,}\@[a-zA-Z]{3,}$~' ,$email)){
+        if (!(bool)preg_match('~^.{3,}\@.*\.{1}[a-zA-Z]{3,}$~' ,$email)){
             $this->errors[] = 'Не верный формат email!';
         }
 

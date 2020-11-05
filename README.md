@@ -60,7 +60,7 @@ CREATE TABLE `content` (
 
 ALTER TABLE `users` ADD FOREIGN KEY (position_id) REFERENCES `position` (`id`);
 ALTER TABLE `content` ADD FOREIGN KEY (user_id) REFERENCES `users` (`id`);
-ALTER TABLE `content` ADD FOREIGN KEY (user_id_btn) REFERENCES `users` (`id`);
+ALTER TABLE `content` ADD FOREIGN KEY (user_id_btn) REFERENCES `position` (`id`);
 
 -- ---
 -- Table Properties

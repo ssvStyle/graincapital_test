@@ -29,10 +29,6 @@ class User extends BaseController
             exit();
         }
         header('Location: /');
-
-        $this->setGlobalNotifications(['']);
-        $this->redirectTo('/');
-
     }
 
 }

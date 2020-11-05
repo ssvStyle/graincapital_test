@@ -10,7 +10,6 @@ class Content extends BaseController
 
     public function create()
     {
-
         exit((new ContentService($_POST))->save());
     }
 
