@@ -3,29 +3,36 @@
 namespace App\Controllers;
 
 use Core\BaseController;
+use App\Service\AuthService;
 
 class Authorization extends BaseController
 {
 
     public function login()
     {
-        echo $this->view
-            ->display('auth/login.html.twig');
-    }
-
-    public function register()
-    {
-        echo $this->view->display('auth/register.html.twig');
+        return $this->view->display('auth/login.html.twig');
     }
 
     public function signIn()
     {
-        dd($_POST);
+        $authService = new AuthService($_POST);
+        $err = $authService->set();
+
+        if ($err !== true) {
+            $this->setGlobalNotifications([
+                'msg' => [
+                    'errors' => $err
+                ]]);
+            header('Location: /login');
+            exit();
+        }
+        header('Location: /');
     }
 
     public function logout()
     {
-        echo 'Authorization Controller and method logout';
+        (new AuthService([]))->unsetAuth();
+        $this->redirectTo('/login');
     }
 
 }

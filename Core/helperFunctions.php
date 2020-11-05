@@ -7,5 +7,12 @@ function dd($var) {
     die('<br> DD function result');
 }
 
+function redirectTo($link) {
+
+    header('Location:' . $link);
+    exit();
+
+}
+
 
 ?>

@@ -2,7 +2,7 @@
 
 namespace App\Service;
 
-use \App\Models\Db as db;
+use Core\Storage\Bases\Mysql as db;
 
 class Authorization
 {
@@ -14,7 +14,7 @@ class Authorization
 
     /**
      * AuthService constructor.
-     * @param \App\Models\Db $db
+     * @param Core\Storage\Bases\Mysql $db
      *
      */
     public function __construct(Db $db)
@@ -34,7 +34,7 @@ class Authorization
 
         if ($hash) {
 
-            $sql = 'SELECT * FROM users WHERE sessionHash=:hash';
+            $sql = 'SELECT * FROM users WHERE session_token=:hash';
 
             if ($this->db->query($sql, [':hash' => $hash])) {
 
@@ -45,6 +45,24 @@ class Authorization
 
         return false;
         
+    }
+
+    /**
+     *
+     * @return mixed
+     */
+
+    public function getUid()
+    {
+        if ($this->userVerify()) {
+
+            $hash = $_SESSION['UserHash'];
+
+            $sql = 'SELECT id FROM users WHERE session_token=:hash';
+
+            return (int)$this->db->query($sql, [':hash' => $hash])[0]['id'] ?? false;
+        }
+
     }
 
     /**
@@ -82,16 +100,13 @@ class Authorization
      */
     public function loginExist($login)
     {
-
-        $sql = 'SELECT * FROM users WHERE login=:login';
+        $sql = 'SELECT * FROM users WHERE email=:login';
 
         if($this->db->query($sql, [':login' => $login])) {
-
             return true;
-
         }
+
         return false;
-        
     }
 
     /**
@@ -105,13 +120,13 @@ class Authorization
     {
         if ($this->loginExist($login)) {
 
-            $sql = 'SELECT users.id, login, pass, sessionHash, usersStatus.status FROM users
-                    LEFT JOIN usersStatus ON users.status_id=usersStatus.id
-                    WHERE login=:login';
+            $sql = 'SELECT users.id, email, psw, session_token FROM users
+                    WHERE email=:login';
+
             $user = $this->db->queryRetObj($sql, [':login' => $login], '\App\Models\User')[0] ?? false;
 
             if ($user) {
-                if ( password_verify($pass, $user->getPass()) ) {
+                if ( password_verify($pass, $user->psw) ) {
                     $this->user = $user;
                     return true;
                 }
@@ -130,13 +145,14 @@ class Authorization
     {
         $hash = sha1(microtime() . rand(0, 1000000000));
 
-        $sql = 'UPDATE users SET sessionHash=:hash WHERE id=:id';
+        $sql = 'UPDATE users SET session_token=:hash WHERE id=:id';
 
-        if ($this->db->execute($sql, [':hash'=> $hash, ':id' => $this->user->getId()])) {
+        if ($this->db->execute($sql, [':hash'=> $hash, ':id' => $this->user->id])) {
 
             $_SESSION['UserHash'] = $hash;
+            $_SESSION['name'] = $this->user->email;
 
-            if ($cookie) {
+            if ($cookie === 'on') {
 
                 setcookie("UserHash", $hash, time() + 3600, '/');
             }
@@ -151,17 +167,18 @@ class Authorization
     public function exitAuth()
     {
         $hashSession = $_SESSION['UserHash'] ?? null;
-
-        $sql = 'UPDATE users SET sessionHash=:hash WHERE sessionHash=:hashSession';
+        $sql = 'UPDATE users SET session_token=:hash WHERE session_token=:hashSession';
 
         if ($this->db->execute($sql, [':hash'=> '', ':hashSession' => $hashSession])) {
 
             unset($_SESSION['UserHash']);
+            unset($_SESSION['name']);
             setcookie("UserHash", "", time() - 3600*60, '/');
             session_regenerate_id(true);
             return true;
-
         }
+
+        return false;
     }
 
 

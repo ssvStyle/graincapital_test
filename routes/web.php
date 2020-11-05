@@ -44,32 +44,31 @@ return [
         'access' => 'all'
     ],
     [
-        'route' => '/register',
-        'controller' => 'authorization',
-        'method' => 'register',
-        'access' => 'all'
-    ],
-    [
         'route' => '/signIn',
         'controller' => 'authorization',
         'method' => 'signIn',
         'access' => 'all',
         'requestMethod' => 'POST'
-
     ],
     [
         'route' => '/logout',
         'controller' => 'authorization',
-        'method' => 'register',
+        'method' => 'logout',
         'access' => 'all',
-        'requestMethod' => 'POST'
 
     ],
     [
         'route' => '/register',
-        'controller' => 'authorization',
+        'controller' => 'user',
         'method' => 'register',
         'access' => 'all'
+    ],
+    [
+        'route' => '/register/create',
+        'controller' => 'user',
+        'method' => 'create',
+        'access' => 'all',
+        'requestMethod' => 'POST'
     ],
 ]
 

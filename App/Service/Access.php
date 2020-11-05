@@ -14,7 +14,8 @@ class Access extends AccessController
             return;
         }
 
-
+        header('Location: /login');
+        exit();
 
         $this->denied();
     }

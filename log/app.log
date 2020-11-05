@@ -131,3 +131,11 @@
 2020-11-04 21:51:27-|-INFO-|-Route not found-|-Context-|-Request-{/favicon.ico}-|-Request Method-{GET}-|-
 2020-11-04 21:51:32-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
 2020-11-04 21:51:37-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-04 21:55:10-|-INFO-|-Route not found-|-Context-|-Request-{/564}-|-Request Method-{GET}-|-
+2020-11-04 22:00:47-|-ALERT-|-Access Denied-|-Context-|-Access-{}-|-Ctrl-{home}-|-Method-{index}-|-ip-{127.0.0.1}-|-User agent-{Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36}-|-
+2020-11-04 22:01:48-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 22:08:40-|-INFO-|-Route not found-|-Context-|-Request-{/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 23:15:33-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-04 23:17:25-|-INFO-|-Route not found-|-Context-|-Request-{/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-05 01:50:36-|-INFO-|-Route not found-|-Context-|-Request-{/images/favicon.ico}-|-Request Method-{GET}-|-
+2020-11-05 02:00:44-|-INFO-|-Route not found-|-Context-|-Request-{/favicon.ico}-|-Request Method-{GET}-|-
