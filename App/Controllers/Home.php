@@ -3,16 +3,16 @@
 namespace App\Controllers;
 
 use Core\BaseController;
+use App\Models\Position;
 
 class Home extends BaseController
 {
 
     public function index()
     {
-
-        //dd('hello');
-
-        echo $this->view->render('index.html.twig');
+        return $this->view->display('index.html.twig', [
+            'positions' => Position::findAll()
+        ]);
 
     }
 

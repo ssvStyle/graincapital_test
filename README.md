@@ -84,3 +84,7 @@ ALTER TABLE `content` ADD FOREIGN KEY (user_id_btn) REFERENCES `users` (`id`);
 INSERT INTO `position` (`id`,`position_name`) VALUES (NULL ,'Директор');
 INSERT INTO `position` (`id`,`position_name`) VALUES (NULL,'Менеджер');
 INSERT INTO `position` (`id`,`position_name`) VALUES (NULL,'Исполнитель');
+
+INSERT INTO `users` (`id`,`email`,`psw`,`created_at`,`updated_at`,`position_id`,`session_token`) VALUES
+(NULL ,'asd@asd','$2y$10$A0NLq/ceUwTtfTjTSrFp8O1oSBh2i8tc4BJK9I4uTvyq6oULWC3G.', 1604535685, 0,'1','');
+-- psw 12345!

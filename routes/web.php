@@ -32,13 +32,13 @@
 
 return [
     [
-        'route' => '/',
+        'route' => '/home',
         'controller' => 'home',
         'method' => 'index',
-        'access' => 'all'
+        //'access' => 'all'
     ],
     [
-        'route' => '/login',
+        'route' => '/',
         'controller' => 'authorization',
         'method' => 'login',
         'access' => 'all'
@@ -68,6 +68,12 @@ return [
         'controller' => 'user',
         'method' => 'create',
         'access' => 'all',
+        'requestMethod' => 'POST'
+    ],
+    [
+        'route' => '/content/create',
+        'controller' => 'Content',
+        'method' => 'create',
         'requestMethod' => 'POST'
     ],
 ]

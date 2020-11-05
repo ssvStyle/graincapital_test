@@ -23,16 +23,16 @@ class Authorization extends BaseController
                 'msg' => [
                     'errors' => $err
                 ]]);
-            header('Location: /login');
+            header('Location: /');
             exit();
         }
-        header('Location: /');
+        header('Location: /home');
     }
 
     public function logout()
     {
         (new AuthService([]))->unsetAuth();
-        $this->redirectTo('/login');
+        $this->redirectTo('/');
     }
 
 }
